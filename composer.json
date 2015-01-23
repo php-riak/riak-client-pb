@@ -1,0 +1,22 @@
+{
+    "name": "fbs/riak-client-pb",
+    "description": "Riak Client PB",
+    "keywords": ["riak", "client", "nosql"],
+    "homepage": "http://github.com/FabioBatSilva/riak-client-pb",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":  "Fabio B. Silva",
+            "email": "fabio.bat.silva@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Riak\\Client\\ProtoBuf\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "centraldesktop/protobuf-php": "0.6.*"
+    }
+}
