@@ -1,4 +1,4 @@
-# Riak Protocol Buffers Messages For PHP [![Build Status](https://secure.travis-ci.org/php-riak/riak-pb.png?branch=master)](http://travis-ci.org/php-riak/riak-client-pb)
+# Riak Protocol Buffers Messages For PHP [![Build Status](https://travis-ci.org/php-riak/riak-client-pb.svg?branch=master)](https://travis-ci.org/php-riak/riak-client-pb)
 
 
 To generate the protobuf php code
