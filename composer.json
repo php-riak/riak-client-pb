@@ -1,8 +1,8 @@
 {
-    "name": "fbs/riak-client-pb",
+    "name": "php-riak/riak-client-pb",
     "description": "Riak Client PB",
     "keywords": ["riak", "client", "nosql"],
-    "homepage": "http://github.com/FabioBatSilva/riak-client-pb",
+    "homepage": "http://github.com/php-riak/riak-client-pb",
     "license": "MIT",
     "authors": [
         {
