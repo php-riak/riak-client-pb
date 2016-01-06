@@ -4,10 +4,9 @@
 option java_package = "com.basho.riak.protobuf";
 option java_outer_classname = "RiakPB";
 
-// import "php.proto";
+import "php.proto";
 
-// option (php.namespace) = "Riak.Client.ProtoBuf";
-// option (php.multifile) = true;
+option (php.package) = "Riak.Client.ProtoBuf";
 
 // Error response - may be generated for any Req
 message RpbErrorResp {
@@ -450,7 +449,7 @@ message RpbDelReq {
 
 // Delete response - not defined, will return a RpbDelResp on success or RpbErrorResp on failure
 
-// List buckets request 
+// List buckets request
 message RpbListBucketsReq {
     optional uint32 timeout = 1;
     optional bool stream = 2;

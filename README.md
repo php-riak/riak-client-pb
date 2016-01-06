@@ -3,6 +3,5 @@
 
 To generate the protobuf php code
 ```bash
-composer install
-php ./vendor/bin/protoc-gen-php.php -o ./src/ -i ./ riak.proto -Dmultifile
+make composer-install proto-generate
 ```

@@ -1,9 +1,12 @@
 {
-    "name": "php-riak/riak-client-pb",
-    "description": "Riak Client PB",
-    "keywords": ["riak", "client", "nosql"],
-    "homepage": "http://github.com/php-riak/riak-client-pb",
-    "license": "MIT",
+    "name"              : "php-riak/riak-client-pb",
+    "description"       : "Riak Client PB",
+    "keywords"          : ["riak", "client", "nosql"],
+    "homepage"          : "http://github.com/php-riak/riak-client-pb",
+    "type"              : "library",
+    "license"           : "MIT",
+    "minimum-stability" : "dev",
+    "prefer-stable"     : true,
     "authors": [
         {
             "name":  "Fabio B. Silva",
@@ -16,7 +19,15 @@
         }
     },
     "require": {
-        "php": ">=5.4.0",
-        "centraldesktop/protobuf-php": "0.6.*"
+        "php"                   : ">=5.4.0",
+        "protobuf-php/protobuf" : "~0.1@dev"
+    },
+    "require-dev": {
+        "protobuf-php/protobuf-plugin" : "~0.1@dev"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
     }
 }
